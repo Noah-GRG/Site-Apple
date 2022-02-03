@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="Air Pods/pods.html">
+                    <span class="icon">
+                        <img width="35px" src="Air Pods/img/img.pods.png">
+                    </span>
+                    <span class="text">Air Pods</span>
+                </a>
+            </li>
+            <li>
+                <a href="Air Pods/pods.html">
+                    <span class="icon">
+                        <img width="35px" src="Iphone/img/img.iphone.png">
+                    </span>
+                    <span class="text">Iphone</span>
+                </a>
+            </li>
+            <li>
+                <a href="Mac/mac.html">
+                    <span class="icon">
+                        <img width="35px" src="Mac/img/img.mac.png">
+                    </span>
+                    <span class="text">Mac</span>
+                </a>
+            </li>
+            <li>
+                <a href="Apple Watch/watch.html">
+                    <span class="icon">
+                        <img width="35px" src="Apple Watch/img/img.watch.png">
+                    </span>
+                    <span class="text">Apple Watch</span>
+                </a>
+            </li>
+            <li>
+                <a href="Ipad/ipad.html">
+                    <span class="icon">
+                        <img width ="35px" src="Ipad/img/img.ipad.png">
+                    </span>
+                    <span class="text">Ipad</span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+    <script>
+        const list= document.querySelectorAll('.list');
+        function activeLink(){
+            list.forEach((item)=>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        listforEach((item)=>
+        item.addEventListener('click', activeLink));
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body > .container 
+{
+    padding: 60px 15px 0;
+}
+
+.col-4
+{
+    padding: 90px;
+}
+
+#4ème-mac-air
+{
+    padding: 40px;
+}
+
+#air
+{
+    text-align: center;
+}
+
+.justify-content-center 
+{
+    background-color: black;
+    padding: 10px;
+    justify-content: center;
+}
+
+#fond
+{
+    background-color: rgba(245,245,247,0.7);
+}
+
+.bg_grey_color 
+{
+    background-color: rgb(151, 148, 148);
+}
+
+footer
+{
+    background-color: rgba(245,245,247,0.7);
+}

@@ -1,0 +1,36 @@
+.nav-link
+{
+    color: white;
+}
+
+.justify-content-center 
+{
+    background-color: black;
+    padding: 10px;
+    justify-content: center;
+}
+
+.nav-link:focus, .nav-link:hover 
+{
+    color: black;
+}
+
+#air
+{
+    text-align: center;
+}
+
+#fond
+{
+    background-color: rgba(245,245,247,0.7);
+}
+
+.bg_grey_color 
+{
+    background-color: rgb(151, 148, 148);
+}
+
+footer
+{
+    background-color: rgba(245,245,247,0.7);
+}
